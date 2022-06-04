@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cert.css">
+    <script src="clear1.js"></script>
+
+    <script src="cert.js"></script>
+</head>
+<body>
+    <center>
+        <b>حاسبة عائد الشهادت</b> <br><br>
+        <b>ملحوظة : يتم حذف الكسور العشرية و التقريب لأقرب رقم صحيح</b>
+        <br><br><br>
+
+            <table border="1">
+                <tr>
+                    <td>
+                        اكتب المبلغ بالجنيه المصري
+                    </td>
+        
+                    <td>
+                        اكتب النسبة
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="number" id="x" name="input" required>
+                    </td>
+                    <td>
+                        <input type="number" id="y" name="input" required>
+                    </td>
+                </tr>
+            </table>
+           
+        </form>
+
+        <br>
+        <button name="re" onclick="clear1()">اريد حساب مبلغ اخر</button>  
+        <button name="calc" onclick="cert()">احسب</button> <br> <br>
+
+
+            <table border="1">
+                <tr>
+                    <td>
+                        العائد السنوي
+                    </td>
+        
+                    <td>
+                        العائد النصف سنوي
+                    </td>
+        
+                    <td>
+                        العائد الربع سنوي
+                    </td>
+        
+                    <td>
+                        العائد الشهري
+                    </td>
+                </tr>
+                <tr>
+                    <td id="year">
+        
+                    </td>
+                    <td id="half">
+                        
+                    </td>
+                    <td id="quarter">
+                        
+                    </td>
+                    <td id="month">
+                        
+                    </td>
+                </tr>
+            </table>
+    </center>
+</body></html>
